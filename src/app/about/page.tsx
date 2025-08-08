@@ -12,6 +12,8 @@ export default function AboutPage() {
           alt="About Noir Desire Background"
           fill
           priority
+          sizes="100vw" // responsive fix
+          quality={100} // pixelation fix
           className="object-cover object-center"
         />
       </div>
@@ -79,4 +81,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
