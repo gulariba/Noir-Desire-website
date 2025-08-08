@@ -8,7 +8,7 @@ export default function AboutPage() {
       {/* Full Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/aboutbg.jpg"
+          src="/assets/bg2.jpg"
           alt="About Noir Desire Background"
           fill
           priority
@@ -79,3 +79,4 @@ export default function AboutPage() {
     </div>
   );
 }
+
