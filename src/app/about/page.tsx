@@ -6,18 +6,20 @@ export default function AboutPage() {
   return (
     <div className="relative w-full min-h-screen bg-black text-white">
       {/* Full Background Image */}
-      <Image
-        src="/assets/aboutbg.jpg"
-        alt="About Noir Desire Background"
-        fill
-        priority
-        className="object-cover object-center z-0"
-      />
+      <div className="absolute inset-0">
+        <Image
+          src="/assets/aboutbg.jpg"
+          alt="About Noir Desire Background"
+          fill
+          priority
+          className="object-cover object-center"
+        />
+      </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60 z-10" />
 
-      {/* Page Content Over Background */}
+      {/* Page Content */}
       <div className="relative z-20">
         {/* Hero Section */}
         <section className="h-96 w-full flex items-center justify-center text-center px-4">
