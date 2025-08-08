@@ -186,7 +186,7 @@ export const productData: Product[] = [
     name: "Fishnet Stockings",
     price: "$55",
     description: "Highly recommended fishnet stockings legs look more spicy and hot .",
-    image: "/assets/pic18.jpg",
+    image: "/assets/pic19.jpg",
     collection: "Bondage",
     category: "Stockings",
   },
@@ -196,9 +196,10 @@ export const productData: Product[] = [
     name: "Bunny costume",
     price: "$55",
     description: "A mostly trending costume also wear in custume parties and clubs.",
-    image: "/assets/pic18.jpg",
+    image: "/assets/pic20.jpg",
     collection: "Bondage",
     category: "Advanced Toys",
   },
 ];
+
 
