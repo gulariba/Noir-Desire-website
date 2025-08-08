@@ -77,7 +77,7 @@ export const productData: Product[] = [
     name: "Ball Gag with Leather Strap",
     price: "$28",
     description: "Comfortable silicone ball gag with adjustable leather strap.",
-    image: "/assets/ballgag.jpg",
+    image: "/assets/pic8.jpg",
     collection: "Bondage",
     category: "Gags",
   },
@@ -146,7 +146,7 @@ export const productData: Product[] = [
     description: "Premium Mouse ear mask with rubbber gagball premium product ever.",
     image: "/assets/pic15.jpg",
     collection: "Bondage",
-    category: "Advanced Toys",
+    category: "Accesories",
   },
 
     {
@@ -156,7 +156,7 @@ export const productData: Product[] = [
     description: "Premium Latex lingerie our new  premium addition .",
     image: "/assets/pic16.jpg",
     collection: "Bondage",
-    category: "Advanced Toys",
+    category: "Corset",
   },
   
    {
@@ -166,7 +166,7 @@ export const productData: Product[] = [
     description: "corset with steel handcuffs give more extreme look of your partner .",
     image: "/assets/pic17.jpg",
     collection: "Bondage",
-    category: "Advanced Toys",
+    category: "Corset",
   },
 
   
@@ -177,7 +177,7 @@ export const productData: Product[] = [
     description: "Most hotest and luxuary lingerie wearing before romance to give more pleasure to your men .",
     image: "/assets/pic18.jpg",
     collection: "Bondage",
-    category: "Advanced Toys",
+    category: "Corset",
   },
   
   
@@ -188,7 +188,7 @@ export const productData: Product[] = [
     description: "Highly recommended fishnet stockings legs look more spicy and hot .",
     image: "/assets/pic18.jpg",
     collection: "Bondage",
-    category: "Advanced Toys",
+    category: "Stockings",
   },
 
    {
@@ -201,3 +201,4 @@ export const productData: Product[] = [
     category: "Advanced Toys",
   },
 ];
+
