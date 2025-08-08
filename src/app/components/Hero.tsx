@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="relative min-h-screen w-full">
       {/* Background Image */}
       <Image
-        src="/assets/bg2.jpg"
+        src="/assets/bg1.jpg"
         alt="Kink Fashion Background"
         fill
         priority
@@ -36,3 +36,4 @@ export default function Hero() {
     </div>
   );
 }
+
