@@ -6,17 +6,18 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div className="relative min-h-screen w-full">
-      {/* Background Image using Next.js Image */}
+      {/* Background Image */}
       <Image
         src="/assets/bg2.jpg"
         alt="Kink Fashion Background"
-        layout="fill"
-        objectFit="cover"
+        fill
         priority
-        className="z-0"
+        className="object-cover object-center z-0"
+        sizes="100vw"
+        quality={100} // pixelation fix
       />
 
-      {/* Overlay content */}
+      {/* Overlay Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen text-center px-4 sm:px-6 md:px-8 pt-24 md:pt-32 bg-black/50">
         <div className="w-full max-w-xl">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-red-800 leading-tight">
